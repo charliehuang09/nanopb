@@ -38,6 +38,7 @@ cc_library(
         "pb_decode.h",
         "pb_encode.h",
     ],
+    includes = ["."],
     visibility = ["//visibility:public"],
     deps = [":nanopb_compilation_options"],
 )
